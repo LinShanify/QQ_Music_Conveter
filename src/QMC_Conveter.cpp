@@ -54,7 +54,7 @@ class Seed{
 
 void process(string dir)
 {
-    std::cout<<"decode "<<dir<<std::endl;
+    std::cout<<"QMC_Converter "<<dir<<std::endl;
     std::fstream infile(dir.c_str(),std::ios::in|std::ios::binary);
     if(!infile.is_open())
     {
@@ -117,7 +117,7 @@ int main(int argc,char ** argv){
 
     if(argc<2)
     {
-        std::cout<<"./decoder qmcfile"<<std::endl;
+        std::cout<<"./QMC_Converter qmcfile"<<std::endl;
         return 1;
     }
 
