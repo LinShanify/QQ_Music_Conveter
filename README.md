@@ -1,8 +1,11 @@
-# QQMusic qmc0 qmcflac Decoder
+# QQ Music Converter
 
-转化QQ Music QMC to MP3 or FLAC
+## Fork from [Presburger/qmc-decoder](https://github.com/Presburger/qmc-decoder)
+Convert QQ Music proprietary qmc0\qmcflac file format back to original music file formate (mp3 or flac)
 
-* build
+QQ音乐qmc0\qmcflac文件转换成原始音乐文件 (mp3 或 flac)
+
+## build
 
 ```
 mkdir build
@@ -11,15 +14,9 @@ cmake ..
 make 
 ```
 
-* convert
+## convert
 
 ```
 cd build
 ./decoder <file1> <file2> ..... 
-```
-
-* batch convert
-
-```
-find test -type f -name "*.qmcflac" -print0 | xargs -0 ./decoder
 ```
