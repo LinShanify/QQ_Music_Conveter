@@ -5,7 +5,7 @@ Convert QQ Music proprietary qmc0\qmcflac file format back to original music fil
 
 QQ音乐qmc0\qmcflac文件转换成原始音乐文件 (mp3 或 flac)
 
-## build
+## Build
 
 ```
 mkdir build
@@ -14,9 +14,8 @@ cmake ..
 make 
 ```
 
-## convert
+## Convert
 
 ```
-cd build
-./decoder <file1> <file2> ..... 
+./QMC_Converter <file1> <file2> ..... 
 ```
